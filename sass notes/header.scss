@@ -1,0 +1,23 @@
+
+header {
+    background-color: yellow;
+
+    .column {
+display: inline-block;
+ width: $column-width;
+    }
+   
+    h1 {
+        @extend .column;
+        background-color: green;
+    }
+    nav {
+        background-color: orange;
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}

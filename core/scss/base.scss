@@ -1,0 +1,48 @@
+// **********************************************************************************
+// General
+// **********************************************************************************
+
+html, body {
+   height: 100%;
+}
+.list {
+    list-style-type: none;
+    color: grey;
+}
+video#bgvid { 
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(https://giant.gfycat.com/TinyBigheartedFreshwatereel.webm) no-repeat;
+    background-size: cover; 
+}
+.wrap {
+    margin: 0% auto;
+    width: 80%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: #152C3C; 
+    opacity: .8;
+    height: 70%;
+    min-height: 750px;
+    min-width: 500px;
+}
+main:hover{
+    opacity: .95;
+}
+
+
+

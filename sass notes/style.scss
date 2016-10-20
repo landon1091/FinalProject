@@ -1,0 +1,25 @@
+/* pull in a file called bass.scss */
+/* 
+1. use @import to splite code into multiple files.
+2. Nesting 
+3. Variables
+4. Inheritance
+5. Math
+*/
+
+
+$column-width: 40%;
+$header-bg-color: yellow;
+$content-bg-color: orange;
+$footer-bg-color: #ccc;
+$font-color: #333;
+
+$big-font-size: 36px;
+$med-font-size: 28px;
+$sm-font-size: 20px;
+
+@import 'base';
+@import 'header';
+@import 'content';
+@import 'footer'; 
+

@@ -1,0 +1,21 @@
+/* pull in a file called base.scss */
+/* 
+1. use @import to split code into multiple files.
+2. Nesting 
+3. Variables
+4. Inheritance
+5. Math
+*/
+@import 'node_modules/foundation-sites/scss/foundation';
+@include foundation-global-styles;
+@include foundation-grid;
+
+$big-font-size: 36px;
+$med-font-size: 28px;
+$sm-font-size: 20px;
+
+@import 'scss/base';
+@import 'scss/equip';
+@import 'scss/search';
+@import 'scss/header';
+// @import 'scss/footer'; 

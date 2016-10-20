@@ -1,0 +1,29 @@
+/* pull in a file called bass.scss */
+/* 
+1. use @import to splite code into multiple files.
+2. Nesting 
+3. Variables
+4. Inheritance
+5. Math
+*/
+.column, header h1, section {
+  display: inline-block;
+  width: 40%;
+  padding: 1%; }
+
+header {
+  background-color: yellow; }
+  header .column, header h1, header section {
+    display: inline-block;
+    width: 40%; }
+  header h1 {
+    background-color: green; }
+  header nav {
+    background-color: orange; }
+    header nav ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+
+/*# sourceMappingURL=out.css.map */
